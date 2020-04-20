@@ -12,7 +12,11 @@ Highlights
 
 ## Contibuting
 
-Clone and install this repo...
+Clone and install and run
+```
+$: npm run lint
+```
+
 
 ### Project structure
 
