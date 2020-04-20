@@ -29,10 +29,17 @@ This mono repo is made up of sub-packages with the following structure. Packages
   /_  cli.js        // if a cli exists it is the cli entry
   /_  package.json    // package dependancies
 ```
-### Testing
+
+We also use [Creditor](/packages/creditor) for scaffolding out new packages with this structure
+```
+$: npm run scaffold
+```
+
+### Testing/Linting
 
 The following will run the test command across all packages
 
 ```
-$: lerna test
+$: npm run lint
+$: npm run test
 ```
