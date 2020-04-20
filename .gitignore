@@ -19,7 +19,7 @@ node_modules
 .sublime-project
 
 # NPM
-/node_modules/
+/**/node_modules/
 
 # temp
-/.temp/
+/**/.temp/

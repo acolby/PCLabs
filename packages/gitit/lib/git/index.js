@@ -127,7 +127,7 @@ module.exports = (repo) => {
   async function _cloneRepoIfDoesntExist(id, repo){
     const dirExists = await _doesLocationExist('./.temp');
     if(!dirExists) {
-      await shell('mkdir repos');
+      await shell('mkdir ./.temp');
     }
     const repoExists = await _doesLocationExist('./.temp/' + id);
     if(!repoExists) {

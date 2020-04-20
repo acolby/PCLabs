@@ -33,7 +33,6 @@ instance.parseRepo({})
   .then((repoData) => {
     return instance.parseProject(repoData);
   })
-  .then(instance.parseProject)
   .then((data) => {
     console.log(data);
   });
