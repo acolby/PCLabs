@@ -1,6 +1,5 @@
 
 module.exports = {
-  output:  '/.temp',
-  'no-exporters': true,
+  output:  '/',
   patterns: {},
 };

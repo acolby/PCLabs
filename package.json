@@ -1,7 +1,8 @@
 {
   "name": "pclabs",
   "scripts": {
-    "scaffold": "node ./packages/creditor/cli --pattern=package --action=create --location=/"
+    "scaffold": "node ./packages/creditor/cli --pattern=package --action=create --location=/",
+    "test": "lerna run test --parallel"
   },
   "devDependencies": {
     "chai": "^4.2.0",

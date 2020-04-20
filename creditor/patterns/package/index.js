@@ -1,9 +1,9 @@
 // const lib = require('./lib');
 
-function <%= name %>(options) {
-  //
+function <%= name %>(options = {}) {
+
   return {
-    // public interface
+    name: () => { return '<%= short_name %>'; },
   }
 }
 
